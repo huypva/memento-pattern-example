@@ -1,4 +1,4 @@
-The hello-world project
+The example project for Memento Pattern
 
 <div align="center">
     <img src="./assets/images/hello_world.png"/>
@@ -11,7 +11,7 @@ Make sure following software is installed on your PC
 ## Project structure
 ```
 .
-├── hello-world
+├── memento-pattern
 │   ├── pom.xml
 │   ...
 ├── pom.xml
@@ -23,13 +23,10 @@ Make sure following software is installed on your PC
 
 ```shell
 $ ./mvnw clean package
-$ java -jar ./hello-world/target/hello-world-0.0.1-SNAPSHOT.jar
-```
-
-```shell
-Compare str1==str2: true
-Compare str3==str4: false
-Compare value str1.equals(str3): true
+$ java -jar ./memento-pattern/target/memento-pattern-0.0.1-SNAPSHOT.jar
+06:09:02.223 [main] INFO io.github.huypva.mementopattern.Main -- State: 1
+06:09:02.225 [main] INFO io.github.huypva.mementopattern.Main -- State: 2
+06:09:02.225 [main] INFO io.github.huypva.mementopattern.Main -- State after restore: 1
 ```
 
 ## Contribute

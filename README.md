@@ -40,3 +40,5 @@ The code is open sourced. I encourage fellow developers to contribute and help i
 - Create new Pull Request
 
 ## Reference
+- https://en.wikipedia.org/wiki/Memento_pattern
+- https://refactoring.guru/design-patterns/memento
